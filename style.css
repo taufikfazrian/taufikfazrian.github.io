@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ddd;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.navbar .judul{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.super-enkripsi{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.menu1{
+    background-color: lime;
+    padding: 5px;
+}
+
+.menu2{
+    background-color: rgb(243, 140, 6);
+    padding: 5px;
+}
+
+.menu3{
+    background-color: mediumspringgreen;
+    padding: 5px;
+}
+
+.judul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.judul1 a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(20, 97, 241);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.judul2 a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(230, 68, 47);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.judul3 a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(90, 241, 20);
+    padding: 5px;
+    border-radius: 5px;
+}
+.nama{
+    margin-top: 20px;
+}
+
+.enkripsi-list1{
+    margin-top: 20px;
+    background-color: lime;
+    padding: 10px;
+}
+
+.enkripsi-list1 h3{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.enkripsi-list1 h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.enkripsi-list1 table{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 35%;
+}
+
+.enkripsi-list1 table td{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.enkripsi-list2{
+    margin-top: 20px;
+    background-color: rgb(243, 140, 6);
+    padding: 10px;
+}
+
+.enkripsi-list2 h3{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.enkripsi-list2 h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.enkripsi-list2 table{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.enkripsi-list2 table td{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.enkripsi-list3{
+    margin-top: 20px;
+    background-color: mediumspringgreen;
+    padding: 10px;
+}
+
+.enkripsi-list3 h3{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.enkripsi-list3 h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.enkripsi-list3 table{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 35%;
+}
+
+.enkripsi-list3 table td{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.super-enkripsi .menu1{
+    display: grid;
+    width: 430px;
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+}
+
+.super-enkripsi .menu2{
+    display: grid;
+    width: 430px;
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+}
+
+.super-enkripsi .menu3{
+    display: grid;
+    width: 430px;
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+}
+
+@media (max-width: 1024px) {
+    .navbar{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+   
+}
+
+@media (max-width: 500px) {
+    .super-enkripsi .menu1{
+        display: grid;
+        width: 265px;
+        height: 70px;
+        text-align: center;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 15px;
+    }
+    .super-enkripsi .menu2{
+        display: grid;
+        width: 265px;
+        height: 70px;
+        text-align: center;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 15px;
+    }
+    .super-enkripsi .menu3{
+        display: grid;
+        width: 265px;
+        height: 70px;
+        text-align: center;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 15px;
+    }
+    .enkripsi-list1 h3{
+        font-size: 20px;
+    }
+    .enkripsi-list1 h4{
+        font-size: 18px;
+    }
+    .enkripsi-list2 h3{
+        font-size: 20px;
+    }
+    .enkripsi-list2 h4{
+        font-size: 18px;
+    }
+    .enkripsi-list3 h3{
+        font-size: 20px;
+    }
+    .enkripsi-list3 h4{
+        font-size: 18px;
+    }
+    .enkripsi-list1 .tabel{
+        margin-left: auto;
+    }
+    .enkripsi-list2 .tabel{
+        margin-left: auto;
+    }
+    .enkripsi-list3 .tabel{
+        margin-left: auto;
+    }
+    .enkripsi-list1 table td{
+        padding: 8px;
+        text-align: center;
+    }
+    .enkripsi-list2 table td{
+        padding: 8px;
+        text-align: center;
+    }
+    .enkripsi-list3 table td{
+        padding: 11px;
+        text-align: center;
+    }
+    .navbar .judul{
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
